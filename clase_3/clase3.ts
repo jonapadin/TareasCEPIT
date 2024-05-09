@@ -1,0 +1,1 @@
+let texto1 : string 
