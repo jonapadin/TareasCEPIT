@@ -6,7 +6,8 @@ let numeroMayor : number = arregloNumeros[0];
 //creamos un bucle
 for(let i = 0; i < 12; i++){
     if (arregloNumeros[i] > numeroMayor){
-        numeroMayor = arregloNumeros[i]
+        numeroMayor = arregloNumeros[i];
+        i++;
     }
 }
  
