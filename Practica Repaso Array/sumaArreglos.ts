@@ -19,7 +19,7 @@ function sumaArreglos(array1 : number[], array2 : number[], cantidad : number){
     let suma : number[] = new Array(cantidad);
     let i : number;
     for(i = 0; i < cantidad; i++){
-        suma[i] = + (array1[i] + array2[i]);
+        suma[i] = (array1[i] + array2[i]);
     }
     return suma;
 }
@@ -30,4 +30,4 @@ llenarArray(arreglo1, longitudArreglo);
 console.log("Llenar arreglo 2")
 llenarArray(arreglo2, longitudArreglo);
 
-console.log(sumaArreglos(arreglo1,arreglo2, longitudArreglo));
+console.log(`La suma de los elementos de los arreglos es: ${sumaArreglos(arreglo1,arreglo2, longitudArreglo)}`);
