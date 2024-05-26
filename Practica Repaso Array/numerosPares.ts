@@ -13,6 +13,7 @@ function llenarArray(arreglo: number[], cantidad: number){
     }
 }
 
+//Creamos una funcion que va a comparar si el resto de un numero dividido por 2 del arreglo es igual a cero y va a sumarle uno a pares
 function numerosPares(arreglo: number[], cantidad: number){
     let i : number;
     let pares : number = 0;
