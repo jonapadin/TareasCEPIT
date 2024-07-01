@@ -1,0 +1,85 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 800px;
+    height: 1000px;
+    border: 1px solid #000;
+}
+
+.caja{
+    margin: 10px;
+}
+
+.bloqueIzquierda{
+    display: inline-flex;
+    width:100%;
+}
+
+.bloqueDerecha{
+    width: 100%;
+    height: 50%;
+}
+
+.linea{
+    display:inline-flex;
+    width:100%;
+}
+.bloque{
+    display: block;
+}
+.cajaVerde{
+    background-color: green;
+    width: 150px;
+    height: 100px;
+    
+}
+
+.cajaGris{
+    background-color: grey;
+    width: 610px;
+    height: 100px;
+}
+
+.cajaBlanca{
+    background-color: rgb(228, 218, 218);
+    width: 800px;
+    height: 50px;
+    border: 1px solid #000;
+}
+
+.cajaVioleta{
+    background-color: blueviolet;
+    width: 220px;
+    height: 400px;
+}
+
+.cajaAzul{
+    background-color: blue;
+    width: 280px;
+    height: 150px;
+}
+
+.cajaRosa{
+    background-color: pink;
+    width: 280px;
+    height: 150px;
+}
+
+.cajaNaranja{
+    background-color: orange;
+    width: 580px;
+    height: 150px;
+}
+
+.cajaCeleste{
+    background-color: aquamarine;
+    border-style:dashed;
+    width: 800px;
+    height: 150px;
+}
