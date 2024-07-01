@@ -16,23 +16,6 @@ body{
     margin: 10px;
 }
 
-.bloqueIzquierda{
-    display: inline-flex;
-    width:100%;
-}
-
-.bloqueDerecha{
-    width: 100%;
-    height: 50%;
-}
-
-.linea{
-    display:inline-flex;
-    width:100%;
-}
-.bloque{
-    display: block;
-}
 .cajaVerde{
     background-color: green;
     width: 150px;
@@ -53,10 +36,27 @@ body{
     border: 1px solid #000;
 }
 
+.bloqueIzquierda{
+    display: inline-flex;
+    width:100%;
+}
 .cajaVioleta{
     background-color: blueviolet;
     width: 220px;
     height: 400px;
+}
+
+.bloqueDerecha{
+    width: 100%;
+    height: 50%;
+}
+
+.linea{
+    display:inline-flex;
+    width:100%;
+}
+.bloque{
+    display: block;
 }
 
 .cajaAzul{
