@@ -1,0 +1,31 @@
+.rectangulo{
+    display: flex;
+    width: 80%;
+    border: 3px solid green;
+    justify-content: space-between;
+}
+.izquierda, .derecha{
+    width: 20%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+}
+
+.izquierda{
+    background-color: firebrick;
+    visibility:visible;
+}
+
+.derecha{
+    background-color: firebrick;
+    visibility: hidden;
+}
+
+.boton{
+    font-size: 20px;  
+}
