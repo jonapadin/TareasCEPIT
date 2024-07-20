@@ -84,10 +84,15 @@ a:link {
     text-decoration: none 
 }
 a:visited {
-    color: white;  font-family: arial; text-decoration: none 
+    color: white;  
+    font-family: arial; 
+    text-decoration: none 
 }
 a:hover {
-     color: black; font-family: arial; text-decoration: none 
+     color: black; 
+     font-family: arial; 
+     text-decoration: none;
+     background-color:rgb(121, 118, 118);
     }
 
 
@@ -102,7 +107,11 @@ a:hover {
 .productosOferta{
     width: 300px;
     height: 450px;
-    transition: box-shadow 0.5s ease;display: inline-block;
+    transition: box-shadow 0.5s ease;
+    display: inline-block;
+    border-color: white;
+    border-style: solid;
+    object-fit: cover;
 }
 
 .textoOfertas{
@@ -111,6 +120,7 @@ a:hover {
         font-size: 40px; 
         COLOR: #db1111; 
         text-shadow: 0px 0px 9px #c56868;
+        top: 15px;
 }
 
 .fotoOfertas{
@@ -128,10 +138,12 @@ a:hover {
     color: rgb(233, 7, 7);
     padding: 5px;
     border-radius: 5px;
+    font-weight: bold;
 }
 
 .productosOferta:hover{
-    box-shadow: 0 30px 40px rgba(0, 0, 0, 0.5);
+    box-shadow: 15px 30px 50px rgba(0, 0, 0, 0.5);
+    
 }
 
 .tarjetas{
