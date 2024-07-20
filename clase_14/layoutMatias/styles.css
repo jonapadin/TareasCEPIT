@@ -1,0 +1,67 @@
+.contenedor1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    height: 120px;
+}
+.contenedor2 {
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.izquierda {
+    width: 24%;
+    height: 500px;
+    background-color: #800080;
+    justify-content: start;
+}
+.derecha {
+    width: 74%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.gemelos {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    height: 37%;
+}
+.headerIzq {
+    width: 19%;
+    background-color: #65F057;
+}
+.headerDer {
+    width: 79%;
+    background-color: #444444;
+}
+.bajoheader {
+    background-color: #FFF7D1;
+    margin-bottom: 10px;
+    height: 40px;
+    border: solid black;
+}
+.der1 {
+    width: 48%;
+    height: 100%;
+    background-color: #0095F0;
+}
+.der2 {
+    width: 48%;
+    height: 100%;
+    background-color: #E0218A;
+}
+.der3 {
+    width: 100%;
+    height: 60%;
+    background-color: orange;
+}
+.footer {
+    background-color: #06E9EA;
+    border-style: dashed;
+    border-color: black;
+    height: 120px;
+}

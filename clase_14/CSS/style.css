@@ -1,0 +1,29 @@
+p{
+    color: red;
+    font-size: 20px;
+}
+
+img{
+    width: 1500px;
+    height: 800px;
+}
+
+.colorVerde{
+    color: green;
+}
+
+.colorMarron{
+    color: brown;
+}
+
+#especial{
+    color: yellow;
+    font-size: 50px;
+}
+
+body{
+    background-image: url("../ciudad.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
