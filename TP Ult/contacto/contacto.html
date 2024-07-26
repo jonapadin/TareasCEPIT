@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="contacto.css".css">
+    <link rel="stylesheet" href="contacto.css" .css">
     <title>TP FINAL</title>
 </head>
 
@@ -13,16 +13,35 @@
     </div>
 
     <header class="header">
-        <nav class="navegador"> <a href="/TP Ult/index.html">Inicio</a></nav>
-        <nav class="navegador"><a href="/TP Ult/productos/productos.html">Productos</a></nav>
+        <nav class="navegador"> <a href="/index.html">Inicio</a></nav>
+        <nav class="navegador"><a href="/productos/productos.html">Productos</a></nav>
     </header>
     <main class="cuerpo">
 
-        <div>Agregar info de contacto</div>
+        <h2>Formulario de contacto</h2>
+
+        <form class="formulario">
+            <label class="formularioTexto" for="nombre">Tu nombre:</label>
+            <input class="formularioBox" type="text" id="nombre">
+            <label class="formularioTexto" for="apellido">Tu apellido:</label>
+            <input class="formularioBox" type="text" id="apellido">
+            <label class="formularioTexto" for="email">Tu email:</label>
+            <input class="formularioBox" type="email" id="email">
+            <label class="formularioTexto" for="telefono">Tu teléfono:</label>
+            <input class="formularioBox" type="text" id="telefono">
+            <label class="formularioTexto" for="mensaje">Escribe tu mensaje:</label>
+            <textarea name="mensaje" id="mensaje"></textarea>
+            
+            <button id="enviar">Enviar</button>
+        </form>
+        <p id="check"></p>
     </main>
     <footer class="footer">
-        <address>super<address>supermarket@gmail.com<span>TEL: 2284- 254894</span></address>
+        <address>supermarket@gmail.com<span>TEL: 2284- 254894</span></address>
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+    <script src="/contacto/contacto.js"></script>
 </body>
 
 </html>

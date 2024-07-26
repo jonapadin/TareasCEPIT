@@ -14,60 +14,27 @@
 
     <header class="header">
         <nav class="navegador"> <a href="/index.html">Inicio</a></nav>
-        <nav class="navegador"><a href="/TP Ult/contacto/contacto.html">Contacto</a> </nav>
+        <nav class="navegador"><a href="/contacto/contacto.html">Contacto</a> </nav>
     </header>
     <main class="cuerpo">
         <h1>Lista de Compras</h1>
-        <div>
-            <ul>
-                <li>
-                    <p>Leche: </p><span class="precio" id="precioLeche">El valor actual es de: $500</span>
-                    <input type="number" name="cant" id="leche" min="0" max="5" value="0" required>
-                </li>
-                <li>
-                    <p>Queso: </p><span class="precio" id="precioQueso">El valor actual es de: $700</span>
-                    <input type="number" name="cant" id="queso" min="0" max="5" value="0" required>
-                </li>
-                <li>
-                    <p>Verduras: </p><span class="precio" id="precioVerduras">El valor actual es de: $800</span>
-                    <input type="number" name="cant" id="verduras" min="0" max="5" value="0" required>
-                </li>
-                <li>
-                    <p>Carnes: </p><span class="precio" id="precioCarnes">El valor actual es de: $900</span>
-                    <input type="number" name="cant" id="carnes" min="0" max="5" value="0" required>
-                </li>
-                <li>
-                    <p>Pastas: </p><span class="precio" id="precioPastas">El valor actual es de: $1000</span>
-                    <input type="number" name="cant" id="pastas" min="0" max="5" value="0" required>
-                </li>
-
-                <li>
-                    <p>Arroz: </p><span class="precio" id="precioArroz">El valor actual es de: $150</span>
-                    <input type="number" name="cant" id="arroz" min="0" max="5" value="0" required>
-                </li>
-                <li>
-                    <p>Azúcar: </p><span class="precio" id="precioAzucar">El valor actual es de: $200</span>
-                    <input type="number" name="cant" id="azucar" min="0" max="5" value="0" required>
-                </li>
-                <li>
-                    <p>Harina: </p><span class="precio" id="precioHarina">El valor actual es de: $250</span>
-                    <input type="number" name="cant" id="harina" min="0" max="5" value="0" required>
-                </li>
-                <li>
-                    <p>Sal: </p><span class="precio" id="precioSal">El valor actual es de: $50</span>
-                    <input type="number" name="cant" id="sal" min="0" max="5" value="0" required>
-                </li>
-                <li>
-                    <p>Aceite: </p><span class="precio" id="precioAceite">El valor actual es de: $180</span>
-                    <input type="number" name="cant" id="aceite" min="0" max="5" value="0" required>
-                </li>
-            </ul>
-            <div>
-                <button type="button" id="calcularTotal">Calcular Total</button>
-                <p class="total">Total: <span id="total">0</span></p>
-                <button type="button" id="comprar">Comprar</button>
-            </div>
+        <div id="listaProductos">
+            
         </div>
+        <div class="metodosDePago" id="metodosDePago">
+            <p>Medio de pago:</p>
+            <label><input type="radio" name="metodoPago" value="efectivo" checked> Efectivo</label>
+            <label><input type="radio" name="metodoPago" value="tarjetaDebito"> Tarjeta Débito</label>
+            <label><input type="radio" name="metodoPago" value="tarjetaCredito"> Tarjeta Crédito</label>
+            <label><input type="radio" name="metodoPago" value="mercadopago"> MercadoPago</label>
+        </div>
+        <div class="total">
+            <p>Total: $<span id="total"></span></p>
+            <button id="calcularTotal">Calcular Total</button>
+            <button id="comprar">Comprar</button>
+        </div>
+
+        <p id="check"></p>
     </main>
 
     
