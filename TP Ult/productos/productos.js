@@ -63,7 +63,7 @@ for (let i = 0; i < productos.length; i++) {
 
   let nombre = document.createElement('p');
   nombre.classList.add('texto')
-  nombre.innerText = `${producto.nombre}: El precio actúal por unidad es de $${producto.precio}`;
+  nombre.innerText = `${producto.nombre}: El precio por unidad es de $${producto.precio}, Stock actual: ${producto.stock}`;
 
   let input = document.createElement('input');
   input.classList.add('caja')
@@ -103,6 +103,10 @@ document.getElementById('comprar').addEventListener('click', () => {
     let check = document.getElementById('check')
     check.classList.add('confirma')
     check.innerText = `¡Compra realizada con éxito! El total de tu compra es de: $${total}`;
+      
+    setTimeout(() => {
+      location.reload(); //objeto que pertenece a la ventana global (window) 
+  }, 2000);
   
   } else {
     let check = document.getElementById('check')
